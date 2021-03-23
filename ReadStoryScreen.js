@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text, View, TouchableOpacity, ScrollView, KeyboardAvoidingView, FlatList } from 'react-native';
-import {SearchBar, TextInput} from 'react-native-elements';
+import { Text, View, TextInput, TouchableOpacity, ScrollView, KeyboardAvoidingView, FlatList } from 'react-native';
+import {SearchBar} from 'react-native-elements';
 import firebase from 'firebase';
 import db from './config';
 
